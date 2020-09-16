@@ -3,6 +3,6 @@ from flask import render_template
 
 
 @app.route("/")
-def Hello():
+def index():
     name = "Vasa"
     return render_template("index.html", n=name)
